@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --violet: #141024;
+  --red: #D52027;
+  --white: #FFFFFF;
+}
+.container {
+  max-width:1250px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.img-logo {
+  width: 80px;
+  margin-left: 30px;
+}
+.header {
+  display: inline-block;
+  width: 1250px;
+  gap: 285px;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+.nav {
+  display: flex;
+  gap: 0px;
+}
+.nav-spis li {
+  display: inline-block;
+}
+.nav-spis {
+  display: flex;
+  gap: 40px;
+}
+.header_logo {
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.nav-spis li > a{
+  font-size:20px;
+  color: #FFFFFF;
+}
+.header > a{
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.menu {
+  display: flex;
+  background-color: #141024;
+}
+.menu-text {
+  margin-left: 180px;
+}
+.menu-text .title-h1 {
+color: #FFFFFF ;
+margin-top: 90px;
+}
+.menu-text .main-desc {
+  color:#FFFFFF ;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.menu-img{
+  margin-right:180px;
+}
+.menu-img img{
+  width: 360px;
+  height: 450px;
+}
+.menu-text .btn {
+  background-color: red;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 13px;
+  border: 0;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.menu-text .btn:hover {
+transform: scale(1.2);
+}
+.menu-text .btn > a {
+  color: white;
+}
+.info {
+  background-image: linear-gradient(to top right, violet,rgba(13, 13, 245, 0.144),white 75%);
+  margin-left: 180px;
+  width: 820px;
+}
+.info-p {
+  margin-top: 80px;
+  max-width: 400px;
+}
+.page {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  width: 820px;
+}
+.page > div > p {
+  margin-top: 20px;
+}
+.reward {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 180px;
+  width: 820px;
+  background-image: linear-gradient(to top left, violet,rgba(13, 13, 245, 0.144),white 75%);
+}
+.title-info-h2 {
+  margin-top: 50px;
+}
+.reward-info {
+  display: flex;
+  margin-top: 25px;
+}
+.rid > p {
+margin-top: 20px;
+}
+.coach {
+  background-image: linear-gradient(to top right, violet,rgba(13, 13, 245, 0.144),white 75%);
+  margin-left: 180px;
+  display: inline-block;
+  margin-top: 60px;
+  width: 820px;
+}
+.coach-name {
+  display: flex;
+  gap: 33px;
+}
+.coach-img {
+  width: 180px;
+  height: 180px;
+}
+.cni {
+  margin-top: 25px;
+  display: inline-block;  
+  transition: 1s;
+}
+.cni:hover {
+transform: scale(1.1);
+}
+.cni h4 {
+margin-top: 10px;
+}
+.cni p {
+  margin-top: 10px;
+}
+.cni > a {
+  display: inline-block;
+  margin-top: 15px;
+  color: red;
+} 
+.pacage {
+  display: inline-block;
+  margin-left: 180px;
+  margin-top: 60px;
+}
+.pacage-info {
+  display: flex;
+  margin-top: 20px;
+  gap: 15px;
+}
+.pid {
+  /* display: inline-block; */
+  background-color: rgb(3, 20, 97);
+  border: 1px solid #14102433;
+  text-align: center;
+  width: 265px;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: 1s;
+  height: 215px;
+}
+.pid p {
+  margin-top: 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+  transition: 1s;
+}
+.pid a {
+  color: white ;
+}
+.pib1 {
+  margin-top: 12px;
+  border-radius: 5px;
+  background-color: red;
+  padding: 13px;
+  border: red;
+}
+.pib2 {
+  margin-top: 33px;
+  border-radius: 5px;
+  background-color: red;
+  padding: 13px;
+  border: red;
+}
+.pib3 {
+  margin-top: 33px;
+  border-radius: 5px;
+  background-color: red;
+  padding: 13px;
+  border: red;
+}
+.pid:hover {
+  transform: scale(1.1);
+  background-color: #141024;
+}
+.submit {
+  margin-left: 180px;
+  margin-top: 50px;
+  display: flex;
+  background-color: #D52027;
+  width: 820px;
+  height: 170px;
+  gap: 70px;
+}
+
+.subd1 {
+  margin-top: 25px;
+  margin-left: 100px;
+}
+.subd1 h3 {
+  color:#FFFFFF;
+  width: 180px;
+}
+.subd1 p {
+  margin-top: 10px;
+  color:#FFFFFF;
+} 
+.from-container {
+  width: 230px;
+  margin-top: 25px;
+  
+}
+.name, .tel, .email, .sub {
+width: 230px;
+height: 25px;
+border-radius: 5px;
+border: 0;
+}
+.tel {
+  margin-top: 5px;
+}
+.email {
+  margin-top: 5px;
+}
+.sub{
+  margin-top: 5px;
+  background-color: #141024;
+  color: #FFFFFF;
+  border: 0;
+  padding: 7px;
+}
+.footer {
+  margin-left: 180px;
+  display: flex;
+  justify-content: space-between;
+
+  width: 820px;
+  background-color: #141024;
+}
+.fotd1 {
+  margin: 25px;
+}
+.fotd1 h4 > a {
+  color: #FFFFFF;
+}
+.fotd1 p {
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+.fotd2 {
+  margin: 25px;
+}
+
+.fotd2 > a {
+  color: #FFFFFF;
+}
